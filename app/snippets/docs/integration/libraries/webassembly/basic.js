@@ -8,9 +8,6 @@ async function main() {
 
 		// Signin to a scope from the browser
 		await db.signin({
-			NS: 'test',
-			DB: 'test',
-			SC: 'user',
 			user: 'info@surrealdb.com',
 			pass: 'my-secret-password',
 		});
