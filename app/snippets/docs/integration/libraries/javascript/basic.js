@@ -6,11 +6,8 @@ async function main() {
 
 	try {
 
-		// Signin to a scope from the browser
+		// Signin to a scope from the browser (these need to match what you used in the start command)
 		await db.signin({
-			NS: 'test',
-			DB: 'test',
-			SC: 'user',
 			user: 'info@surrealdb.com',
 			pass: 'my-secret-password',
 		});
